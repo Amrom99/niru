@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    background: #000;
+}
+div{
+    text-align: center;
+    margin: 25%;
+}
+h3{
+    color: rgb(214, 108, 32);
+}
+span{
+    color: rgb(171, 226, 54);
+}
+.hi{
+    color: rgb(45, 219, 173);
+}
+h5{
+ color: #cce362;
+}
+h1{
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: rgb(255, 0, 162);}
+  100% {color: green;}
+}
+i{
+    color: #e51d1d;
+}
+audio{
+    width: 50%;
+    height: 20px;
+    margin-top: 10%;
+}
